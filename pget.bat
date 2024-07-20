@@ -1,1 +1,1 @@
-@php %~dp0/wget.php %*
+@php %~dp0/pget.php %*
