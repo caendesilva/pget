@@ -1,7 +1,15 @@
 #!/usr/bin/php
 <?php
 
-// PGET = Minimal cross-platform WGET implementation in PHP
+/**
+ * PGET - Minimal cross-platform WGET implementation in PHP.
+ *
+ * Usage: pget <URL>
+ *
+ * @link https://github.com/caendesilva/pget GitHub Repository.
+ * @license https://github.com/caendesilva/pget/blob/master/LICENSE.md MIT License.
+ * @author Caen De Silva <caen@desilva.se>
+ */
 
 // Check if URL argument is provided
 if ($argc < 2) {
