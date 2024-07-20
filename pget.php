@@ -12,6 +12,11 @@ if ($argc < 2) {
 // Get URL from first argument
 $url = $argv[1];
 
+// If URL has no scheme, prepend https://
+if (strpos($url, '://') === false) {
+    $url = 'https://'.$url;
+}
+
 // Validate URL
 if (! filter_var($url, FILTER_VALIDATE_URL)) {
     echo "Error: Invalid URL provided.\n";
