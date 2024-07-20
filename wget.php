@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 
 // PGET = Minimal cross-platform WGET implementation in PHP
